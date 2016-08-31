@@ -77,6 +77,13 @@ public class StorageFile {
     private static boolean isValidPath(Path filePath) {
         return filePath.toString().endsWith(".txt");
     }
+    
+    /**
+     * Returns true if the given path exist.
+     */
+    public boolean isPresent(){
+    	return path.toFile().exists();
+    }
 
     /**
      * Saves all data to this storage file.
