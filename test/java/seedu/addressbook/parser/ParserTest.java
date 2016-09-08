@@ -273,7 +273,7 @@ public class ParserTest {
         return addCommand;
     }
 
-    /**
+    /**Test
      * Utility methods
      */
 
